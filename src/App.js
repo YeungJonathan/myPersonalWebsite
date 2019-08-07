@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import hongkong from './hongkong.jpg';
+import melbourne from './melbourne.jpg';
+import newyork from './newyork.jpg';
 import './App.css';
 
+
+
 function App() {
+  
+  const styles={
+    backgroundContainer:{
+      display: 'flex',  
+      justifyContent:'center', 
+      alignItems:'center', 
+      height: '100vh'
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div style={styles.backgroundContainer} className="melbourne-background background-photo">
+      <h1 style={{color:'white'}}>
+        Jonathan Yeung
+      </h1>
+    </div>    
+    <div style={styles.backgroundContainer} className="hong-kong-background background-photo">
+        <h1 style={{color:'white'}}>Software Engineer Intern @ Vonex Ltd</h1>
     </div>
+    <div style={styles.backgroundContainer} className="newyork-background background-photo">
+        <h1 style={{color:'white'}}>Final Year Monash Uni Bachelor of Comp Science</h1>
+    </div>
+    </>
+
   );
 }
 
