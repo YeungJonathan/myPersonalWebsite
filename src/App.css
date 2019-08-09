@@ -1,20 +1,20 @@
 
-.hong-kong-background {
-  background-image: url('./hongkong.jpg');
+.sydney-background {
+  background-image: url('./assets/sydney.JPG');
 }
 
 .background-photo{
   height: 100%; 
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-blend-mode: overlay;
   background-size: cover;
-  background-size: 100%;
 }
 
-.melbourne-background {
-  background-image: url('./melbourne.jpg');
+.hamilton-background {
+  background-image: url('./assets/hamilton_island.JPG');
 }
 
-.newyork-background {
-  background-image: url('./newyork.jpg');
+.great-ocean-road-background {
+  background-image: url('./assets/great_ocean_road.JPG');
 }
