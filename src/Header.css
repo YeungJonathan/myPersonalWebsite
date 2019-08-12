@@ -71,3 +71,48 @@
     text-decoration: none;
     color: darkslategrey
   }
+
+  /* new header style below */
+.container-style {
+  font: 18px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color:white;
+}
+
+.inner-container-style {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.header-text {
+  position: relative;
+  list-style: none;
+  /* height: 48px; */
+  display: inline;
+  /* display: inline-block; */
+}
+
+.header-text-style {
+  cursor: pointer;
+  /* padding-right: 30%; */
+  /* margin-right: 10%; */
+  margin-left:2%;
+  margin-left:2%;
+}
+
+
+.current {
+  /* color: #F06000; */
+  color:blue;
+}

@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Router>
       <Switch>
         <Route path="/" component={mainpage} />

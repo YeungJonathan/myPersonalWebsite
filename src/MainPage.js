@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainPage.css';
 import Footer from './Footer'
+import Header from './Header'
 
 function MainPage() {
   
@@ -22,10 +23,13 @@ function MainPage() {
 
   return (
     <>
-      <div style={styles.backgroundContainer} className="hamilton-background background-photo">
+      <div style={{height:'100vh'}} className="hamilton-background background-photo">
+        <Header/>
+        <div style={styles.backgroundContainer}>
           <h1 style={styles.headerText}>Jonathan Yeung</h1>
           <h3 style={{color:'#E0FFFF'}}> <span style={{color:'#42ecf5', fontSize:32}}>Hong Kong</span> borned, <span style={{color:'#42ecf5', fontSize:32}}>Melbourne</span> based <span style={{color:'#42ecf5', fontSize:32}}>Software Engineer.</span></h3>
-        <Footer/>
+          <Footer/>
+        </div>
       </div>    
 
       {/* <div style={styles.backgroundContainer} className="sydney-background background-photo">
