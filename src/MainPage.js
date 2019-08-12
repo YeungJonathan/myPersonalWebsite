@@ -1,8 +1,6 @@
 import React from 'react';
 import './MainPage.css';
 import Footer from './Footer'
-import Header from './Header'
-
 
 function MainPage() {
   

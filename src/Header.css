@@ -8,7 +8,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: blue;
+    background: #0099ff;
     /* background: #b8b7ad; */
   }
   
@@ -44,6 +44,11 @@
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
+
+  .bm-overlay {
+    top: 0;
+    left: 0;
+  }
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
@@ -60,8 +65,8 @@
   .bm-item {
     display: inline-block;
   }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+
+  .menu-item {
+    text-decoration: none;
+    color: darkslategrey
   }
