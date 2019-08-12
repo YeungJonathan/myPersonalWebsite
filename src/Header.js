@@ -5,12 +5,14 @@ import './Header.css';
 import { FaRegBell } from 'react-icons/fa';
 
 
-function Header() {
+function Header({page}) {
+    const currentStyleNames = "smoothscroll header-text-style current"
+    const styleNames = "smoothscroll header-text-style"
     return (
         <nav className='container-style'>
             <ul className='inner-container-style'>
             <li className="header-text">
-                <a className="smoothscroll header-text-style current">
+                <a className={page == 0?currentStyleNames:styleNames}>
                     Home
                 </a>
             </li>
