@@ -1,0 +1,16 @@
+.icon-left {
+    padding-right:10px;
+}
+
+.icon {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+}
