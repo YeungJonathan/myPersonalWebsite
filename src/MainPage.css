@@ -18,3 +18,7 @@
 .great-ocean-road-background {
   background-image: url('./assets/great_ocean_road.JPG');
 }
+
+.subtext {
+  flex-direction: row !important;
+}
