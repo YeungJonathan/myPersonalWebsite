@@ -1,8 +1,5 @@
-import { pushRotate as Menu } from 'react-burger-menu'
 import React from 'react';
-import Avatar from 'react-avatar';
 import './Header.css';
-import { FaRegBell } from 'react-icons/fa';
 
 
 function Header({page}) {
@@ -12,12 +9,12 @@ function Header({page}) {
         <nav className='container-style'>
             <ul className='inner-container-style'>
             <li className="header-text">
-                <a className={page == 0?currentStyleNames:styleNames}>
+                <a className={page === 0?currentStyleNames:styleNames}>
                     Home
                 </a>
             </li>
             <li className="header-text">
-                <a className="smoothscroll header-text-style">
+                <a className={page === 1?currentStyleNames:styleNames}>
                 About
                 </a>
             </li>
@@ -31,9 +28,6 @@ function Header({page}) {
                 Contact
                 </a>
             </li>
-            {/* <a>About</a>
-            <a>Projects</a>
-            <a>Contact</a> */}
             </ul>
         </nav>
     )

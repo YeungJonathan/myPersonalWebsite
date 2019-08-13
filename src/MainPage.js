@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './MainPage.css';
 import Footer from './Footer'
 import Header from './Header'
 
 function MainPage() {
-  
+  const [page, setPage] = useState(0);
+
   const styles={
     backgroundContainer:{
       flexDirection:'column',
@@ -22,20 +23,15 @@ function MainPage() {
   }
   
   const moveScrollIndicator = () => {
-    const percentage = ((window.scrollY) / -maxScrollableHeight) * 100;
-    // console.log((window.scrollY), maxScrollableHeight)
-    // console.log(percentage)
-    page = percentage > 50? 1: 0
+    const percentage = Math.abs(((window.scrollY) / maxScrollableHeight) * 100);
+    percentage>50?setPage(1):setPage(0)
   }
   
-  let page = 0;
   const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
   window.addEventListener('scroll', moveScrollIndicator);
 
-  console.log(page)
-
   return (
-    <div id="main-page">
+    <div id="main-page" style={{minWidth:'70%', overflow:'auto'}}>
       <div style={{height:'100vh'}} className="hamilton-background background-photo">
         <Header page={page}/>
         <div style={styles.backgroundContainer}>
@@ -46,9 +42,8 @@ function MainPage() {
         </div>
       </div>    
 
-      {/* <div style={styles.backgroundContainer} className="sydney-background background-photo">
-          <h1 style={styles.headerText}>Software Engineer Intern @Vonex Ltd</h1>
-      </div> */}
+      <div style={styles.backgroundContainer} className="background-photo">
+      </div>
 
       {/* <div style={styles.backgroundContainer} className="great-ocean-road-background background-photo"> */}
       {/* <div style={styles.backgroundContainer}> */}
