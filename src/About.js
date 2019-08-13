@@ -11,9 +11,9 @@ function About() {
             alignItems:'center', 
             height: '45vh',
             backgroundColor:'#3e659c',
-            borderBottom:'dashed',
-            borderWidth:'90%',
-            borderColor:'white'
+            // borderBottom:'dashed',
+            // borderWidth:'90%',
+            // borderColor:'white'
         },
         backgroundContainer2:{
             flexDirection:'column',
@@ -53,7 +53,7 @@ function About() {
                 </div>
             </div>
         </div>
-        <div style={styles.backgroundContainer2} className="background-photo">
+        {/* <div style={styles.backgroundContainer2} className="background-photo">
             <div style={{width:'90%', height:'88%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', alignItems:'center'}}>
                 {/* <img style={{borderRadius:25, height:'35%'}} src={require('./assets/jy.png')}/>
                 <div style={{flexDirection:'row'}}>
@@ -67,8 +67,8 @@ function About() {
                         Monash University Final Year Bachelor of Computer Science Student
                     </h3> */}
                 {/* </div> */}
-            </div>
-        </div>
+            {/* </div> */}
+        {/* </div> */}
         </>
   );
 }
