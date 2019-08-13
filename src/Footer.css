@@ -11,9 +11,16 @@
 }
 
 .container {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content:center;
     align-items:center;
-    margin: auto;
+    margin: 0 auto;
+    z-index: 100;
+    display:flex;
+}
+
+.not-main-container {
+    background-color:#4d90bd;
+    width:100%;
 }

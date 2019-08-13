@@ -4,9 +4,9 @@ import { FiLinkedin } from "react-icons/fi";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import './Footer.css';
 
-function Footer(){
+function Footer({page}){
     return(
-    <div className="container">
+    <div className={page == 0?"container":"container not-main-container"}>
         <a href="https://github.com/YeungJonathan">
             <GoMarkGithub size={40} className="icon-left-more icon" color={'lightblue'}/>
         </a>

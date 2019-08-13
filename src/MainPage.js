@@ -43,7 +43,7 @@ function MainPage() {
           <h1 style={styles.headerText}>Jonathan Yeung</h1>
           <h3 style={{color:'#E0FFFF'}}> <span style={styles.subText}>Hong Kong</span> born, <span style={styles.subText}>Melbourne</span> based <span style={styles.subText}>Software Engineer.</span></h3>
           <h3 style={{color:'#E0FFFF'}}> <span style={styles.subText}>Tech</span> Geek, <span style={styles.subText}>Travel</span> Lover,  <span style={styles.subText}>Foodie.</span></h3>
-          <Footer/>
+          <Footer page={page}/>
         </div>
       </div>    
 

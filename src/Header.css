@@ -84,11 +84,11 @@
   left: 0;
   top: 0;
   height:6.5%;
-  color:#62add9;
+   color:white
 }
 
 .container-not-main {
-  background-color:#E0FFFF;
+  background-color:#4d90bd;
 }
 
 .inner-container-style {
