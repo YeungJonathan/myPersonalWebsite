@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './MainPage.css';
-import Footer from './Footer'
-import Header from './Header'
+import Footer from './Footer';
+import About from './About';
+import Header from './Header';
 
 function MainPage() {
   const [page, setPage] = useState(0);
@@ -46,11 +47,12 @@ function MainPage() {
         </div>
       </div>    
 
-      <div style={styles.backgroundContainer} className="sydney-background background-photo">
+      <About/>
+      {/* <div style={styles.backgroundContainer} className="sydney-background background-photo">
         <div style={{width:'90%', height:'87%', backgroundColor:'lightgrey'}}>
 
         </div>
-      </div>
+      </div> */}
 
       {/* <div style={styles.backgroundContainer} className="great-ocean-road-background background-photo"> */}
       {/* <div style={styles.backgroundContainer}> */}

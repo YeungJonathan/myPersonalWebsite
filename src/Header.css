@@ -83,7 +83,12 @@
   position: fixed;
   left: 0;
   top: 0;
-  color:white;
+  height:6.5%;
+  color:#62add9;
+}
+
+.container-not-main {
+  background-color:#E0FFFF;
 }
 
 .inner-container-style {
@@ -108,5 +113,5 @@
 }
 
 .current {
-  color:blue;
+  color:#1134f7;
 }

@@ -1,0 +1,7 @@
+.background-photo{
+    height: 100%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+  }
