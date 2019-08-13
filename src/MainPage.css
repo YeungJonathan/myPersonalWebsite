@@ -1,6 +1,7 @@
 
 .sydney-background {
-  background-image: url('./assets/sydney.JPG');
+  /* background-image: url('./assets/sydney.JPG'); */
+  background-color: grey;
 }
 
 .background-photo{

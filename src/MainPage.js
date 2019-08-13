@@ -20,11 +20,15 @@ function MainPage() {
       marginLeft: 'auto',
       marginRight:'auto',
     },
+    subText:{
+      color:'#397ae3',  
+      fontSize:32,
+    },
   }
   
   const moveScrollIndicator = () => {
     const percentage = Math.abs(((window.scrollY) / maxScrollableHeight) * 100);
-    percentage>50?setPage(1):setPage(0)
+    percentage>75?setPage(1):setPage(0)
   }
   
   const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
@@ -36,13 +40,16 @@ function MainPage() {
         <Header page={page}/>
         <div style={styles.backgroundContainer}>
           <h1 style={styles.headerText}>Jonathan Yeung</h1>
-          <h3 style={{color:'#E0FFFF'}}> <span style={{color:'#42ecf5', fontSize:32}}>Hong Kong</span> borned, <span style={{color:'#42ecf5', fontSize:32}}>Melbourne</span> based <span style={{color:'#42ecf5', fontSize:32}}>Software Engineer.</span></h3>
-          <h3 style={{color:'#E0FFFF'}}> <span style={{color:'#42ecf5', fontSize:32}}>Tech</span> Geek, <span style={{color:'#42ecf5', fontSize:32}}>Travel</span> Lover,  <span style={{color:'#42ecf5', fontSize:32}}>Foodie.</span></h3>
+          <h3 style={{color:'#E0FFFF'}}> <span style={styles.subText}>Hong Kong</span> born, <span style={styles.subText}>Melbourne</span> based <span style={styles.subText}>Software Engineer.</span></h3>
+          <h3 style={{color:'#E0FFFF'}}> <span style={styles.subText}>Tech</span> Geek, <span style={styles.subText}>Travel</span> Lover,  <span style={styles.subText}>Foodie.</span></h3>
           <Footer/>
         </div>
       </div>    
 
-      <div style={styles.backgroundContainer} className="background-photo">
+      <div style={styles.backgroundContainer} className="sydney-background background-photo">
+        <div style={{width:'90%', height:'87%', backgroundColor:'lightgrey'}}>
+
+        </div>
       </div>
 
       {/* <div style={styles.backgroundContainer} className="great-ocean-road-background background-photo"> */}

@@ -70,7 +70,7 @@
   .menu-item {
     text-decoration: none;
     color: darkslategrey
-  }
+  } 
 
   /* new header style below */
 .container-style {
@@ -98,21 +98,15 @@
 .header-text {
   position: relative;
   list-style: none;
-  /* height: 48px; */
   display: inline;
-  /* display: inline-block; */
 }
 
 .header-text-style {
   cursor: pointer;
-  /* padding-right: 30%; */
-  /* margin-right: 10%; */
-  margin-left:2%;
-  margin-left:2%;
+  margin-left:1%;
+  margin-right:1%;
 }
 
-
 .current {
-  /* color: #F06000; */
   color:blue;
 }
