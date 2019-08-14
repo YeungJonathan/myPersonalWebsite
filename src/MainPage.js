@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './MainPage.css';
 import Footer from './Footer';
 import About from './About';
+import Resume from './Resume';
 import Header from './Header';
 
 function MainPage() {
@@ -29,7 +30,7 @@ function MainPage() {
   
   const moveScrollIndicator = () => {
     const percentage = Math.abs(((window.scrollY) / maxScrollableHeight) * 100);
-    percentage>75?setPage(1):setPage(0)
+    percentage>72?setPage(1):setPage(0)
   }
   
   const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
@@ -48,6 +49,7 @@ function MainPage() {
       </div>    
 
       <About/>
+      <Resume/>
       {/* <div style={styles.backgroundContainer} className="sydney-background background-photo">
         <div style={{width:'90%', height:'87%', backgroundColor:'lightgrey'}}>
 
