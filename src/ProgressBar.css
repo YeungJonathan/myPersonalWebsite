@@ -1,0 +1,9 @@
+.progress-bar{
+    position: relative;
+    height:20px;
+    width:350px;
+    border-radius: 50px;
+    border: 1px solid #333;
+    margin-top: 4.2%;
+    /* margin-left: 2%; */
+}

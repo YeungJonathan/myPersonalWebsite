@@ -27,7 +27,7 @@ function Resume() {
     return (
         <div style={styles.backgroundContainer} className="background-photo">
             <div style={{width:'90%', height:'25%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center'}}>
-                <h1 style={{marginRight:'20%', marginTop:'3%', textDecoration:'underline', textDecorationColor:'blue', fontSize:25, marginLeft:'7%'}}>
+                <h1 style={{marginRight:'20%', marginTop:'3%', textDecoration:'underline', textDecorationColor:'blue', fontSize:25, marginLeft:'5%'}}>
                     Education
                 </h1>
                 <div style={{flexDriection:'column', marginTop:'2%', marginBottom:'1.4%'}}>
@@ -50,7 +50,7 @@ function Resume() {
             </div>
 
 
-            <div style={{width:'90%', height:'47%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', marginTop:'3%', marginBottom:'5%', flexBasis:'100%'}}>
+            <div style={{width:'90%', height:'47%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', marginTop:'2%'}}>
 
                 <h1 style={{marginRight:'20%', marginTop:'3%', textDecoration:'underline', textDecorationColor:'blue', fontSize:25, marginLeft:'5%'}}>
                     Work
