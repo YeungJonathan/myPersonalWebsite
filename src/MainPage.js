@@ -13,8 +13,9 @@ function MainPage() {
       flexDirection:'column',
       display: 'flex',  
       justifyContent:'center', 
-      alignItems:'center', 
-      height: '100vh',
+      alignItems:'center',  
+      width: '100vw',
+      
     },
     headerText:{
       color:'#E0FFFF', 
@@ -38,7 +39,7 @@ function MainPage() {
 
   return (
     <div id="main-page" style={{minWidth:'70%', overflow:'auto'}}>
-      <div style={{height:'100vh'}} className="hamilton-background background-photo">
+      <div style={{height:'100vh', display:'flex', justifyContent:'center', alignItems:'center'}} className="hamilton-background background-photo">
         <Header page={page}/>
         <div style={styles.backgroundContainer}>
           <h1 style={styles.headerText}>Jonathan Yeung</h1>

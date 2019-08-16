@@ -35,7 +35,7 @@ function About() {
         <div style={styles.backgroundContainer} className="background-photo">
             <div style={{width:'90%', height:'70%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <img style={{borderRadius:15, height:'60%', marginLeft:'15%'}} src={require('./assets/jy.png')}/>
-                <div style={{flexDirection:'row', marginLeft:'10%', marginRight:'5%'}}>
+                <div style={{flexDirection:'row', marginLeft:'10%', marginRight:'5%', width:'100vw'}}>
                     <h2 style={{color:'black'}}>
                         About me
                     </h2>

@@ -9,8 +9,7 @@ function Resume() {
             display: 'flex',  
             justifyContent:'center', 
             alignItems:'center', 
-            height: '130vh',
-            // backgroundColor:'#3e659c',
+            width: '100vw',
             backgroundColor:'#175b96',
         },
         sideText:{
@@ -51,7 +50,7 @@ function Resume() {
             </div>
 
 
-            <div style={{width:'90%', height:'47%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', marginTop:'3%', marginBottom:'5%'}}>
+            <div style={{width:'90%', height:'47%', backgroundColor:'white', borderRadius:25, display:'flex', justifyContent:'center', marginTop:'3%', marginBottom:'5%', flexBasis:'100%'}}>
 
                 <h1 style={{marginRight:'20%', marginTop:'3%', textDecoration:'underline', textDecorationColor:'blue', fontSize:25}}>
                     Work
