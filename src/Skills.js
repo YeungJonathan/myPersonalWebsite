@@ -54,7 +54,7 @@ function Skills() {
                         <h3 style={{marginBottom:'10%', display:'flex', marginRight:'10%'}}>
                             React Native
                         </h3>
-                        <ProgressBar percentage={50}/>
+                        <ProgressBar percentage={80}/>
                     </div>
                 </div>   
             </div>
